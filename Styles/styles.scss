@@ -1,8 +1,13 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+}
+
+h1 {
+    color: white;
 }
 
 :root {
@@ -65,14 +70,14 @@ section {
     }
 }
 
-.section{
+.section {
     transform: translateY(-100%) scale(0);
     transition: all .4s ease-in-out;
-    // background-color: var(--color-primary);
+    background-color: var(--color-primary);
 }
 
 .sec1 {
-    // display: none;
+    display: none;
     transform: translateY(0) scale(1);
     background-color: red;
 }

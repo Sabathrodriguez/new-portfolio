@@ -22,7 +22,7 @@ function PageTransitions() {
             btn.classList.remove('active');
             // console.log(btn.classList);
         })
-        e.target.classList.add('active')
+        // e.target.classList.add('active')
         // e.target.classList.add("active");
         console.log(e.target.classList);
 
