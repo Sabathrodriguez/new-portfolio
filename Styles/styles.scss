@@ -142,3 +142,10 @@ section {
         }
     }
 }
+
+// header content
+// independent components
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
